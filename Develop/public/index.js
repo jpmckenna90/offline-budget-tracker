@@ -145,11 +145,9 @@ function sendTransaction(isAdding) {
 }
 
 document.querySelector("#add-btn").onclick = function() {
-  alert('add')
   sendTransaction(true);
 };
 
 document.querySelector("#sub-btn").onclick = function() {
-  alert('subtract')
   sendTransaction(false);
 };
