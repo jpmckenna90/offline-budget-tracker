@@ -1,7 +1,14 @@
-const FILES_TO_CACHE = [];
+const FILES_TO_CACHE = [
+  "/",
+  "/index.html",
+  "/index.js",
+  "/style.css",
+  "/icons/icon-192x192.png",
+  "/icons/icon-512x512.png"
+  ];
 
-const CACHE_NAME = "static_cache";
-const DATA_CACHE = "data_cache";
+const CACHE_NAME = "static_cache-v2";
+const DATA_CACHE = "data_cache-v1";
 
 //  install
 self.addEventListener("install", function (evt) {
